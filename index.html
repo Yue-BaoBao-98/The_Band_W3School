@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Band</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/fonts/fontawesome-icons/css/all.css" />
+    </head>
+    <body>
+        <div id="app">
+            <!-- BEGIN HEADER - NAV  -->
+            <header id="header">
+                <!-- BEGIN NAV  -->
+                <ul id="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#band">band</a></li>
+                    <li><a href="#tour">tour</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li>
+                        <a href="#">more <i class="fa-solid fa-caret-down"></i></a>
+
+                        <ul class="sub_nav">
+                            <li><a href="#">merchandise</a></li>
+                            <li><a href="#">extras</a></li>
+                            <li><a href="#">media</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- END NAV  -->
+
+                <!-- BEGIN SEARCH TBN  -->
+                <div class="search_btn_container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="js_mobile_menu_btn mobile_menu_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <!-- END SEARCH TBN  -->
+            </header>
+            <!-- END HEADER - NAV  -->
+
+            <!-- BEGIN MAIN BODY CONTENT  -->
+            <main>
+                <!-- BEGIN SLIDER  -->
+                <div id="slider">
+                    <div class="slider_content_container">
+                        <h2 class="slider_heading"></h2>
+                        <div class="slider_content"></div>
+                    </div>
+                </div>
+                <!-- END SLIDER  -->
+
+                <!-- BEGIN MAIN CONTENT  -->
+                <div id="container">
+                    <!-- BEGIN BAND INFO -->
+                    <div id="band" class="content band">
+                        <div class="content_heading">the band</div>
+                        <div class="content_sub_heading">We love music</div>
+                        <p class="band_info">
+                            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+
+                        <!-- BEGIN BAND MEMBER  -->
+                        <div class="band_member_list">
+                            <div class="member_item col three_col center_text s_one_col">
+                                <div class="member_name">Name</div>
+                                <img
+                                    src="./assets/img/band_teams/bandmember.jpg"
+                                    alt="Member image 1"
+                                    class="member_img"
+                                />
+                            </div>
+
+                            <div class="member_item col three_col center_text s_one_col">
+                                <div class="member_name">Name</div>
+                                <img
+                                    src="./assets/img/band_teams/bandmember.jpg"
+                                    alt="Member image 1"
+                                    class="member_img"
+                                />
+                            </div>
+
+                            <div class="member_item col three_col center_text s_one_col">
+                                <div class="member_name">Name</div>
+                                <img
+                                    src="./assets/img/band_teams/bandmember.jpg"
+                                    alt="Member image 1"
+                                    class="member_img"
+                                />
+                            </div>
+
+                            <div class="clear"></div>
+                        </div>
+                        <!-- END BAND MEMBER  -->
+                    </div>
+                    <!-- END BAND INFO  -->
+
+                    <!-- BEGIN TOUR DATES  -->
+                    <div id="tour" class="tour_section">
+                        <div class="content tour">
+                            <div class="content_heading white_text">tour dates</div>
+                            <div class="content_sub_heading white_text">Remember to book your tickets!</div>
+
+                            <!-- BEGIN TICKET DATES  -->
+                            <ul class="ticket_list">
+                                <li class="ticket_dates">September <span class="sold_out">Sold out</span></li>
+                                <li class="ticket_dates">October <span class="sold_out">Sold out</span></li>
+                                <li class="ticket_dates">November <span class="ticket_number">3</span></li>
+                            </ul>
+                            <!-- END TICKET DATES  -->
+
+                            <!-- BEGIN TOUR PLACES  -->
+                            <div class="row places_list">
+                                <div class="places_item col three_col s_one_col">
+                                    <img
+                                        src="./assets/img/ticket_places/newyork.jpg"
+                                        alt="New York image"
+                                        class="places_img"
+                                    />
+                                    <div class="places_content">
+                                        <h3 class="places_name">New York</h3>
+                                        <p class="places_date">Fri 27 Nov 2016</p>
+                                        <p class="places_info">
+                                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                        </p>
+                                        <button class="places_buy_btn js_places_buy_ticket">Buy Tickets</button>
+                                    </div>
+                                </div>
+
+                                <div class="places_item col three_col s_one_col">
+                                    <img
+                                        src="./assets/img/ticket_places/paris.jpg"
+                                        alt="Paris image"
+                                        class="places_img"
+                                    />
+                                    <div class="places_content">
+                                        <h3 class="places_name">Paris</h3>
+                                        <p class="places_date">Sat 28 Nov 2016</p>
+                                        <p class="places_info">
+                                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                        </p>
+                                        <button class="places_buy_btn js_places_buy_ticket">Buy Tickets</button>
+                                    </div>
+                                </div>
+
+                                <div class="places_item col three_col s_one_col">
+                                    <img
+                                        src="./assets/img/ticket_places/sanfran.jpg"
+                                        alt="Sanfran image"
+                                        class="places_img"
+                                    />
+                                    <div class="places_content">
+                                        <h3 class="places_name">San Francisco</h3>
+                                        <p class="places_date">Sun 29 Nov 2016</p>
+                                        <p class="places_info">
+                                            Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                        </p>
+                                        <button class="places_buy_btn js_places_buy_ticket">Buy Tickets</button>
+                                    </div>
+                                </div>
+
+                                <div class="clear"></div>
+                            </div>
+                            <!-- END TOUR PLACES  -->
+                        </div>
+                    </div>
+                    <!-- END TOUR DATES  -->
+
+                    <!-- BEGIN CONTACT  -->
+                    <div id="contact" class="content contact">
+                        <div class="content_heading">contact</div>
+                        <p class="content_sub_heading">Fan? Drop a note!</p>
+
+                        <div class="row contact_content">
+                            <!-- BEGIN CONTACT INFO -->
+                            <div class="col two_col s_one_col">
+                                <p class="contact_info"><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                                <p class="contact_info">
+                                    <i class="fa-solid fa-phone"></i> Phone:
+                                    <a href="tel:+00 151515">+00 151515</a>
+                                </p>
+                                <p class="contact_info">
+                                    <i class="fa-solid fa-envelope"></i> Email:
+                                    <a href="mailto:mail@mail.com">mail@mail.com</a>
+                                </p>
+                            </div>
+                            <!-- END CONTACT INFO -->
+
+                            <!-- BEGIN CONTACT INPUT  -->
+                            <div class="col two_col s_one_col contact_form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col two_col s_one_col s_mt_8">
+                                            <input type="text" class="contact_inp" placeholder="Name" required />
+                                        </div>
+
+                                        <div class="col two_col s_one_col s_mt_8">
+                                            <input type="email" class="contact_inp" placeholder="Email" required />
+                                        </div>
+                                    </div>
+
+                                    <div class="row mt_8">
+                                        <div class="col one_col">
+                                            <input type="text" class="contact_inp" placeholder="Message" required />
+                                        </div>
+                                    </div>
+
+                                    <input class="form_submit_btn mt_16 s_full_width" type="submit" value="SEND" />
+                                </form>
+                            </div>
+                            <!-- END CONTACT INPUT -->
+                        </div>
+                    </div>
+                    <!-- END CONTACT  -->
+
+                    <img src="./assets/img/map.jpg" alt="Map image" class="map_img" />
+                </div>
+                <!-- END MAIN CONTENT  -->
+            </main>
+
+            <!-- BEGIN FOOTER  -->
+            <footer id="footer">
+                <div class="icon_container">
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""> <i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <p class="copyright">
+                    Powered by
+                    <a href="https://www.w3schools.com/w3css/default.asp" class="copyright_link">w3.css</a>
+                </p>
+            </footer>
+            <!-- END FOOTER  -->
+
+            <!-- BEGIN POP-UP BUY TICKET MODAL  -->
+            <div class="modal js_modal">
+                <div class="modal_container js_modal_container">
+                    <!-- BEGIN MAODAL HEADER  -->
+                    <div class="modal_close_btn js_modal_close_btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+
+                    <header class="modal_header">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Tickets
+                    </header>
+                    <!-- END MODAL HEADER  -->
+
+                    <!-- BEGIN MODAL MAIN  -->
+                    <div class="modal_main">
+                        <label for="modal_input_number" class="modal_label">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            Tickets, $15 per person
+                        </label>
+                        <input id="modal_input_number" type="number" class="modal_input" placeholder="How many?" />
+
+                        <label for="modal_input_email" class="modal_label">
+                            <i class="fa-solid fa-user"></i>
+                            Send To
+                        </label>
+                        <input id="modal_input_email" type="email" class="modal_input" placeholder="Enter email" />
+                        <button id="pay_btn">pay <i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <!-- END MODAL MAIN  -->
+
+                    <!-- BEGIN MODAL FOOTER -->
+                    <footer class="modal_footer">
+                        <p class="modal_footer_content">Need <a href="" class="modal_footer_link">help?</a></p>
+                    </footer>
+                    <!-- END MODAL FOOTER  -->
+                </div>
+            </div>
+            <!-- END POP-UP BUY TICKET MODAL -->
+        </div>
+
+        <!-- MODAL JS SCRIPT  -->
+        <script>
+            const buyBtns = document.querySelectorAll('.js_places_buy_ticket');
+            const modal = document.querySelector('.js_modal');
+            const modal_container = document.querySelector('.js_modal_container');
+            const close_buy_btn = document.querySelector('.js_modal_close_btn');
+
+            function show_modal_buy_ticket() {
+                modal.classList.add('open');
+            }
+
+            function close_modal_buy_ticket() {
+                modal.classList.remove('open');
+            }
+
+            for (const buyBtn of buyBtns) {
+                //Listen to user click to Buy Ticket button
+                //Do func show_modal_buy_ticket to add class open to modal
+                buyBtn.addEventListener('click', show_modal_buy_ticket);
+            }
+
+            //Listen to user click to close Buy Ticket button
+            //Do func close_modal_buy_ticket to remove class open from modal
+            close_buy_btn.addEventListener('click', close_modal_buy_ticket);
+
+            modal.addEventListener('click', close_modal_buy_ticket);
+            modal_container.addEventListener('click', function (event) {
+                event.stopPropagation();
+            });
+        </script>
+
+        <script>
+            var header = document.getElementById('header');
+            //console.log(header);
+            const mobile_menu_btn = document.querySelector('.js_mobile_menu_btn');
+            var current_header_height = header.clientHeight;
+            //console.log(current_header_height);
+
+            //set click to menu btn to a function
+            mobile_menu_btn.onclick = function () {
+                var header_close = header.clientHeight === current_header_height;
+                //header_close value is true or false
+                //if true set header height to auto 46px
+                if (header_close) {
+                    header.style.height = 'auto';
+                } else {
+                    header.style.height = null;
+                }
+            };
+
+            var menu_items = document.querySelectorAll('#nav li a[href*="#"]');
+            //console.log(menu_items);
+
+            //method 1 to click on menu item => close menu
+            /*for (var i = 0; i < menu_items.length; i++) {
+                var menu_item = menu_items[i];
+                //console.log(menu_item);
+
+                menu_item.onclick = function () {
+                  //console.log(this);
+                  header.style.height = null;
+                };
+              }*/
+
+            //method 2 to click on menu item => close menu
+            for (var menu_item of menu_items) {
+                //console.log(menu_item);
+                //console.log(menu_item.nextElementSibling);
+
+                menu_item.onclick = function (event) {
+                    var nav_item_is_parent =
+                        this.nextElementSibling && this.nextElementSibling.classList.contains('sub_nav');
+                    //this = menu_item
+                    if (nav_item_is_parent) {
+                        event.preventDefault();
+                    } else {
+                        header.style.height = null;
+                    }
+                };
+            }
+        </script>
+
+        <script>
+            const slider = document.querySelector('#slider');
+            const slider_heading = document.querySelector('.slider_heading');
+            const slider_content = document.querySelector('.slider_content');
+
+            const slider_items = [
+                {
+                    heading: 'Chicago',
+                    content: "Thank you, Chicago - A night we won't forget.",
+                    img_url: 'url(./assets/img/slider/chicago.jpg)',
+                },
+                {
+                    heading: 'New York',
+                    content: 'The atmosphere in New York is lorem ipsum.',
+                    img_url: 'url(./assets/img/slider/ny.jpg)',
+                },
+                {
+                    heading: 'Los Angeles',
+                    content: 'We had the best time playing at Venice Beach!',
+                    img_url: 'url(./assets/img/slider/la.jpg)',
+                },
+            ];
+
+            let i = 0;
+            function slider_change() {
+                slider.style.backgroundImage = slider_items[i].img_url;
+                slider_heading.innerText = slider_items[i].heading;
+                slider_content.innerText = slider_items[i].content;
+                if (i < slider_items.length - 1) {
+                    i++;
+                } else {
+                    i = 0;
+                }
+                setTimeout('slider_change()', 2000);
+            }
+
+            window.onload = slider_change;
+        </script>
+    </body>
+</html>
