@@ -24,3 +24,11 @@ This project is a personal initiative designed to:
 ## 🔗 Live Demo
 
 Check out the live demo here: [The Band](https://yue-baobao-98.github.io/The_Band_W3School/)
+
+## 📫 Contact
+
+Feel free to reach me at:
+
+-   Email: [Mail](nguyenhuagiabao.98@gmail.com)
+
+-   LinkedIn: [Profile](https://www.linkedin.com/in/bao-nguyen-nhgb98)
